@@ -1,0 +1,14 @@
+# vim:syntax=apparmor
+# AppArmor policy for firefox
+# ###AUTHOR###
+# ###COPYRIGHT###
+# ###COMMENT###
+
+abi <abi/4.0>,
+include <tunables/global>
+
+profile firefox-sh /home/mistry/my_applications/firefox.sh flags=(unconfined) {
+    userns,
+
+}
+
