@@ -1,0 +1,18 @@
+# AppArmor policy for firefox
+
+# Maulik Mistry <mistry01.com>
+# Copyright (c) 2025 Maulik Mistry
+#
+# This project is licensed under the BSD License. See the LICENSE.txt file for details.
+#
+# If you appreciate my work or help, consider supporting me through donations.
+# You can donate via Venmo at  or PayPal at https://www.paypal.com/paypalme/m1st0
+
+include <tunables/global>
+
+profile firefox-custom @{HOME}/my_applications/firefox/{firefox,firefox-bin,updater} flags=(unconfined) {
+    userns,
+
+}
+
+# vim:syntax=apparmor
