@@ -1,0 +1,14 @@
+# vim:syntax=apparmor
+# AppArmor policy for zen
+# ###AUTHOR###
+# ###COPYRIGHT###
+# ###COMMENT###
+
+abi <abi/4.0>,
+include <tunables/global>
+
+profile zen-sh /home/mistry/my_applications/zen.sh flags=(unconfined) {
+    userns,
+
+}
+

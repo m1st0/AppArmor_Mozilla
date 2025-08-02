@@ -1,0 +1,14 @@
+# vim:syntax=apparmor
+# AppArmor policy for thunderbird
+# ###AUTHOR###
+# ###COPYRIGHT###
+# ###COMMENT###
+
+abi <abi/4.0>,
+include <tunables/global>
+
+profile thunderbird-custom /home/mistry/my_applications/thunderbird/{thunderbird,thunderbird-bin,updater} flags=(unconfined) {
+    userns,
+
+}
+
