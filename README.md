@@ -38,8 +38,8 @@ sudo systemctl restart apparmor
 
 ## Using the Provided Scripts
 
-- `install.sh` — creates the necessary symlinks and reloads profiles.  
-- `uninstall.sh` — removes symlinks with confirmation prompts.
+- `install.zsh` — creates the necessary symlinks and reloads profiles.  
+- `uninstall.zsh` — removes symlinks with confirmation prompts.
 
 Run these scripts if you prefer automation over manual setup.
 
