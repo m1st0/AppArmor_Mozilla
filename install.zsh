@@ -6,7 +6,8 @@
 # This project is licensed under the BSD License. See the LICENSE.txt file for details.
 #
 # If you appreciate my work or help, consider supporting me through donations.
-# You can donate via Venmo at  or PayPal at https://www.paypal.com/paypalme/m1st0
+# You can donate via Venmo at https://venmo.com/code?user_id=3319592654995456106&created=1756212520  
+# or PayPal at https://www.paypal.com/paypalme/m1st0 
 
 echo "Installing AppArmor customizations..."
 
